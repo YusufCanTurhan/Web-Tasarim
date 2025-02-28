@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anasayfa</title>
+    <link href="styles/style.css" rel="stylesheet" type="text/css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>Bilişim MYO-Blog Hoşgeldiniz</header>
+    <p>Bilişim Teknolojileri Myo Öğrenci Web Sitesi</p>
+    <nav>
+        <a href="#">Anasayfa</a>
+        <a href="#">Hakkımızda</a>
+        <a href="#">Portfolyo</a>
+        <a href="javascript:void(0);" onclick="formGoster()">İletişim</a>
+    </nav>
+    <div class="row">
+        <div class="leftcolumn">
+            <div class="card">
+                <h2>Haber Başlığı</h2>
+                <h5>Haber Tarihi gg/aa/yyyy</h5>
+                <div class="resim" style="height: 200px;">Resim Bu Alana Gelicek</div>
+                <p>Slogan Cümlesi</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus impedit velit perspiciatis expedita iusto pariatur, soluta illum voluptatibus in! Qui vero tempora molestias? Repudiandae est, nam porro voluptate quod ipsa.</p>
+            </div>
+            <div class="card">
+                <h2>Haber Başlığı 2</h2>
+                <h5>Haber Tarihi gg/aa/yyyy</h5>
+                <div class="resim" style="height: 200px;">Resim Bu Alana Gelicek</div>
+                <p>Slogan Cümlesi</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus impedit velit perspiciatis expedita iusto pariatur, soluta illum voluptatibus in! Qui vero tempora molestias? Repudiandae est, nam porro voluptate quod ipsa.</p>
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="rightcolumn">
+                <div class="card">
+                    <h3>Popüler Gönderiler</h3>
+                    <img src="news.jpg" alt="SON DAKİKA" width="400px">
+                    <div class="resim"><p>RESİM2</p></div>
+                    <div class="resim"><p>RESİM3</p></div>
+            </div>
+            <div class="card">
+                <h3>Bizi Takip Edin</h3>
+                <p>Burada Metin Yer Alıcak</p>
+            </div>
+        </div>
+    </div>
+    <div id="iletisimFormu">
+        <button class="kapat-btn" onclick="formKapat()">X</button>
+        <h2>İletişim Formu</h2>
+        <form>
+            <label for="isim">Adınız:</label>
+            <input type="text" id="isim" name="isim"><br><br>
+            <label for="email">E-posta:</label>
+            <input type="email" id="email" name="email"><br><br>
+            <label for="mesaj">Mesajınız:</label><br>
+            <textarea id="mesaj" name="mesaj" rows="4" cols="30"></textarea><br><br>
+            <input type="submit" value="Gönder">
+        </form>
+    </div>
+    <footer>
+        <h2>Footer Alanı</h2>
+    </footer>
+</body>
+</html>
