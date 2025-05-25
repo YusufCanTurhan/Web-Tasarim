@@ -57,4 +57,4 @@ novamed-web/
 
 ## 🛠️ Geliştirici
 
-Bu site, örnek bir kurum web sitesi olarak geliştirilmiştir. Özelleştirilebilir, genişletilebilir.
+-- Yusuf Can Turhan --
